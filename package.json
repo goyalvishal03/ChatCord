@@ -5,9 +5,10 @@
   "main": "server.js",
   "scripts": {
     "start": "node server",
-    "dev": "nodemon server"
+    "dev": "nodemon server",
+    "build" : "npm install"
   },
-  "author": "Brad Traversy",
+  "author": "vishal goyal",
   "license": "MIT",
   "dependencies": {
     "@socket.io/redis-adapter": "^7.1.0",

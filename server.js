@@ -3,6 +3,8 @@ const http = require("http");
 const express = require("express");
 const socketio = require("socket.io");
 const formatMessage = require("./utils/messages");
+
+import path from "path";
 // const createAdapter = require("@socket.io/redis-adapter").createAdapter;
 // const redis = require("redis");
 // require("dotenv").config();
@@ -14,6 +16,8 @@ const {
   getRoomUsers,
 } = require("./utils/users");
 
+
+const __dirname = path.resolve();
 const app = express();
 const server = http.createServer(app);
 const io = socketio(server);
