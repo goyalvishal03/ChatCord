@@ -1,13 +1,14 @@
 import path from "path";
 import http from "http";
 import express from "express";
-import socketio  from"socket.io";
+import socketio  from "socket.io";
 import formatMessage from "./utils/messages.js";
 
 // const createAdapter = require("@socket.io/redis-adapter").createAdapter;
 // const redis = require("redis");
 // require("dotenv").config();
 // const { createClient } = redis;
+
 const {
   userJoin,
   getCurrentUser,
