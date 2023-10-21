@@ -4,7 +4,6 @@ const express = require("express");
 const socketio = require("socket.io");
 const formatMessage = require("./utils/messages");
 
-import path from "path";
 // const createAdapter = require("@socket.io/redis-adapter").createAdapter;
 // const redis = require("redis");
 // require("dotenv").config();
