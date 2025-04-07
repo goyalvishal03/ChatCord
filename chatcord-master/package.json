@@ -3,22 +3,18 @@
   "version": "1.0.0",
   "description": "Realtime chat app with rooms",
   "main": "server.js",
-  "type": "module",
   "scripts": {
     "start": "node server",
-    "dev": "nodemon server",
-    "build": "npm install"
+    "dev": "nodemon server"
   },
-  "author": "vishal goyal",
+  "author": "Vishal Goyal",
   "license": "MIT",
   "dependencies": {
     "@socket.io/redis-adapter": "^7.1.0",
     "dotenv": "^14.3.2",
     "express": "^4.17.1",
     "moment": "^2.24.0",
-    "path": "^0.12.7",
     "redis": "^4.0.2",
-    "require": "^2.4.20",
     "socket.io": "^4.4.1"
   },
   "devDependencies": {
